@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #dfd3c3;
+}
+main{
+    background:linear-gradient(200.44deg, rgba(0, 0, 0, 0.0001) 16.41%, rgba(0, 0, 0, 0.51) 77.16%),
+    url(./Image/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash\ \(1\).png);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: none;
+}
+.logo{
+    padding: 1rem;
+    width: 100px;
+}
+header, ul{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    margin: 1.5rem;
+}
+ul li{
+    margin-left: 1rem;
+    list-style-type: none;
+}
+ul li a{
+    font-family: 'DM Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+i{
+    color: rgb(255, 255, 255);
+    display: none;
+}
+.fa-bars{
+    display: none;
+}
+section{
+    padding: 1rem 3rem;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-top: 3rem;
+}
+.hero-text{
+    width: 25%;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: px;
+    letter-spacing: -1px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+
+}
+.hero-img-texts{
+    width: 90%;
+    height: 9vh;
+    background-color: rgba(255, 255, 255, 1);
+    margin-left: 1.3rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+/* .hero-img-icons{
+    width: %;
+    height: 6vh;
+    color: white;
+    background-color: black;
+    margin-top: 1rem;
+} */
+@media (max-width:770px){
+    
+    ul{
+        display: flex;
+        margin: 1rem;
+    }
+    .feedback{
+        display: none;
+    }
+    ul li a{
+        text-decoration: none;
+    }
+
+    .hero{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-top: 3rem;
+    }
+    .hero-text{
+        width: 30%;
+        font-family: 'Inter';
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: -1px;
+        text-align: left;
+        color: rgba(255, 255, 255, 1);
+    
+    }
+    
+  
+}
+
+@media (max-width:480px){
+    main{
+        background-image: url(./Image/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash\ \(1\).png);
+        height: 100vh;
+        background-size: cover;
+        background-repeat: none;
+        overflow: hidden;
+    }
+    section{
+        padding: 1rem 1rem;
+    }
+    
+    label .logo{
+        width: 5rem;
+        padding: 1rem;
+    }
+     ul{
+        display:block;
+        position: absolute;
+        top: 50px;
+        left: 70px;
+        height: 100%;
+        overflow: hidden;
+    
+    }
+     ul li{
+        padding: 3px;
+    }
+    .icon{
+        display: block;
+        margin-top: 5rem;
+        margin-left: 1rem;
+        cursor: pointer;
+    }
+    i{
+        padding: .5rem;
+    }
+    
+    .fa-bars{
+        display: block;
+        margin-top: .5rem;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        margin: rem;
+        width: 100%;
+        margin-top: 3rem;
+    }
+    img{
+        width: 100%;
+       
+    }
+    .hero-text{
+        width: 25%;
+        font-family: 'Inter';
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: -1px;
+        width: 90%;
+        color: rgba(255, 255, 255, 1);
+    
+    }
+    .hero-img-texts{
+        width: 90%;
+        height: 5vh;
+        background-color: rgba(255, 255, 255, 1);
+        margin-left: 1.3rem;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        margin-bottom: 2rem;
+    }
+}
+@media (min-width:1728px){
+   body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+   }
+   html{
+    background-color: black;
+   }
+}
