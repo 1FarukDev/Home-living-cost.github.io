@@ -75,21 +75,11 @@ section{
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
-/* .hero-img-icons{
-    width: %;
-    height: 6vh;
-    color: white;
-    background-color: black;
-    margin-top: 1rem;
-} */
 @media (max-width:770px){
     
     ul{
         display: flex;
         margin: 1rem;
-    }
-    .feedback{
-        display: none;
     }
     ul li a{
         text-decoration: none;
