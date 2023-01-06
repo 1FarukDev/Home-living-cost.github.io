@@ -37,6 +37,7 @@ ul li a{
     text-align: left;
     color: rgb(255, 255, 255);
     text-decoration: none;
+    transition: 0.3s ease-in-out;
 }
 
 i{
@@ -67,13 +68,59 @@ section{
     color: rgba(255, 255, 255, 1);
 
 }
-.hero-img-texts{
-    width: 90%;
-    height: 9vh;
-    background-color: rgba(255, 255, 255, 1);
-    margin-left: 1.3rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+.hero-col-1{
+    width: 80%;
+    background:  #FFFFFF;
+    height: 70px;
     border-radius: 10px;
+    margin-left: 2.2rem;
+}
+/* .hero-col-2{
+    background: black;
+    width: 40%;
+}
+.hero-col-3{
+    background: red;
+    width: 40%;
+}
+.hero-col-4{
+    background: black;
+    width: 30%;
+} */
+.col-wrapper{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 40px;
+    margin: 1rem;
+}
+.hero-col-2,.hero-col-3,.hero-col-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F9F9F9;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid #E6E6E6;
+    margin-top: 20px;
+    padding: 1rem;
+    width: 30%;
+}
+.hero-col-4{
+    width: 10%;
+    background: #23A6F0;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #E6E6E6;
+}
+label{
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: left;
+
+}
+select{
+    border: none;
 }
 @media (max-width:770px){
     
@@ -177,6 +224,14 @@ section{
         margin-left: 1.3rem;
         border: 1px solid rgba(0, 0, 0, 0.2);
         border-radius: 10px;
+        margin-bottom: 2rem;
+    }
+    .hero-col-1{
+        width: 90%;
+        background:  #FFFFFF;
+        height: 70px;
+        border-radius: 10px;
+        margin-left: 1.5rem;
         margin-bottom: 2rem;
     }
 }
