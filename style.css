@@ -137,16 +137,15 @@ margin: auto;
     width: 23%;
     height: 1px;
     margin-top: -13px;
-    margin-left: 16rem;
+    margin-left: 13rem;
 }
-.container{
+#main{
     background: #E5E5E5;
 }
 .container-img-text{
     /* display: grid;
     grid-template-columns: 1fr 1fr; */
     display: flex;
-    height: 10px;
     width: 80%;
     margin: auto;
 }
@@ -157,6 +156,9 @@ margin: auto;
         column-gap: 3rem;
         row-gap: 3rem;
         margin-top: 3rem;
+        height: 50vh;
+        width: 80%;
+        padding: 1rem;
 }
 .paid,.home,.stack,.flower,.rank,.circle{
     padding: .5rem;
@@ -175,7 +177,7 @@ margin: auto;
     font-weight: 400;
     font-size: 15px;
     padding-top: .5rem;
-    width: 60%;
+    width: 80%;
     font-style: normal;
     text-transform: capitalize;
 }
@@ -229,11 +231,12 @@ margin: auto;
      ul{
         display:block;
         position: absolute;
+        width: 100%;
         top: 50px;
         left: 70px;
         height: 100%;
         overflow: hidden;
-    
+        background-color: black;
     }
      ul li{
         padding: 3px;
@@ -304,10 +307,14 @@ padding: 1rem;
         }
         .min-line{
             background-color: rgba(244, 81, 30, 1);
-            width: 35%;
+            width: 36%;
             height: 1px;
             margin-top: -20px;
+            margin-left: 0px;
         }
+        .container-text{
+         display: block;
+    }
 }
 @media (min-width:1728px){
    body{
