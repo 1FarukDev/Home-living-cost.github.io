@@ -288,6 +288,36 @@ margin-top: .4rem;
 .icons-number{
     padding-left: 10px;
 }
+.main-switch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.first,.second,.third,.next,.fourth{
+    border: .5px solid rgba(189, 189, 189, 1);
+    padding: 1rem;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+}
+.next{
+    border-radius: 0 5px 5px 0;
+}
+.third{
+    background: #F4511E;
+    color: white;
+}
+.second,.fourth,.next{
+    color: #F4511E;
+}
+.first{
+    color: #BDBDBD;
+    border-radius: 5px 0 0 5px;
+}
 @media (max-width:770px){
     
     ul{
