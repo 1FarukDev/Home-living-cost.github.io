@@ -554,12 +554,13 @@ input,
   letter-spacing: 0.1815929263830185px;
   text-align: center;
 }
+/***Testimonies**/
 #article{
   display: grid;
   grid-template-columns: 3fr 1fr;
   gap:rem;
   text-align: left;
-  width: 100%;
+  width: auto;
   place-items: center;
   background-color: rgba(244, 81, 30, 0.07);
   /* display: flex;
@@ -570,9 +571,10 @@ input,
 }
 #article-texts-paragraph{
   font-family: 'Inter';
-  font-weight: 400;
+  font-weight: 600;
   font-size: 15px;
-  line-height: 23px;
+  line-height: 25px;
+  width: 70%;
   color: #18191F;
   font-style: normal;
   margin-bottom: 1.5rem;
@@ -1103,10 +1105,24 @@ color: #18191F;
     line-height: 20px;
     text-align: center;
   }
+  /**Testimonies**/
   #article{
-    display: block;
+    display: flex;
+    flex-direction: column-reverse;
     text-align: center;
   }
+  #article-texts-paragraph{
+    width: 100%;
+    text-align: left;
+    line-height: 18px;
+    font-weight: 400;
+  }
+  #article-image{
+    margin: 2rem 0rem;
+  }
+  /* .profile-img,.name{
+    margin-bottom: 4rem;
+  } */
   video{
     width: 100%;
   }
