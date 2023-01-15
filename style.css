@@ -5,6 +5,7 @@
 body {
   background-color: white;
 }
+/* main */
 main {
   background-image: linear-gradient(
       200.44deg,
@@ -17,10 +18,12 @@ main {
   background-size: cover;
   background-repeat: none;
 }
+/* Logo */
 .logo {
-  padding: 1rem;
+  padding: .2rem 1rem;
   width: 100px;
 }
+/* Header and list tags */
 header,
 ul {
   display: flex;
@@ -45,7 +48,7 @@ ul li a {
   text-decoration: none;
   transition: 0.3s ease-in-out;
 }
-
+/* bars */
 i {
   color: rgb(255, 255, 255);
   display: none;
@@ -53,9 +56,12 @@ i {
 .fa-bars {
   display: none;
 }
-section, footer {
+/* The whole body and footer padding */
+section,
+footer {
   padding: 1rem 3rem;
 }
+/* Hero and hero section texts */
 .hero {
   display: flex;
   justify-content: space-between;
@@ -73,6 +79,7 @@ section, footer {
   text-align: left;
   color: rgba(255, 255, 255, 1);
 }
+/* hero column including the map */
 .hero-col-1 {
   width: 80%;
   background: #ffffff;
@@ -80,18 +87,6 @@ section, footer {
   border-radius: 10px;
   margin-left: 2.2rem;
 }
-/* .hero-col-2{
-    background: black;
-    width: 40%;
-}
-.hero-col-3{
-    background: red;
-    width: 40%;
-}
-.hero-col-4{
-    background: black;
-    width: 30%;
-} */
 .col-wrapper {
   display: flex;
   justify-content: center;
@@ -118,6 +113,7 @@ section, footer {
   border-radius: 0px 5px 5px 0px;
   border: 1px solid #e6e6e6;
 }
+/* label below the map and other labels */
 label {
   font-family: "Poppins";
   font-size: 14px;
@@ -166,6 +162,7 @@ label {
   width: 80%;
   padding: 1rem;
 }
+/* The icons in the main section */
 .paid,
 .home,
 .stack,
@@ -192,6 +189,7 @@ label {
   font-style: normal;
   text-transform: capitalize;
 }
+/* Properties dispalyed */
 #properties {
   background: #f5f5f5;
 }
@@ -215,6 +213,7 @@ h2 {
   margin-top: -15px;
   background-color: rgba(244, 81, 30, 1);
 }
+/* Button present in the property */
 button {
   border: none;
   background-color: rgba(244, 81, 30, 1);
@@ -230,6 +229,7 @@ button {
   text-align: center;
   color: #ffffff;
 }
+/* Available properties */
 #available {
   display: grid;
   grid-row-gap: 2rem;
@@ -258,12 +258,14 @@ button {
 .available-props-address {
   width: 80%;
   font-family: "DM Sans";
+  padding-left: 1rem;
   font-size: 23px;
   font-weight: 700;
   letter-spacing: -0.1px;
   text-align: left;
 }
 small {
+  padding-left: 1rem;
   font-family: "DM Sans";
   font-weight: 200;
   /* text-align: left; */
@@ -271,11 +273,13 @@ small {
   margin-top: 0.4rem;
 }
 #available-price {
+  padding-left: 1rem;
   font-family: "DM Sans";
-  letter-spacing: -0.6420748233795166px;
+  letter-spacing: -1px;
   text-align: left;
   color: rgba(244, 81, 30, 1);
 }
+/* the line under the available header */
 .row-line {
   margin-top: 0.7em;
   width: 100%;
@@ -303,6 +307,7 @@ small {
   align-items: center;
   margin-top: 2rem;
 }
+/* Page switch */
 .first,
 .second,
 .third,
@@ -344,8 +349,6 @@ small {
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: 1fr 3fr;
-  /* grid-auto-rows: minmax(100px, auto); */
-  /* height: 100vh; */
 }
 .article-image2 {
   align-self: end;
@@ -486,7 +489,6 @@ label {
   line-height: 24px;
   letter-spacing: 1px;
   text-align: left;
-  /* color: rgba(244, 81, 30, 1); */
 }
 .form-details-name {
   margin: 1rem;
@@ -526,7 +528,7 @@ input,
   border: 1px dashed#f4511e;
 }
 .form-photo {
-  padding:2rem 10rem 1rem 10rem;
+  padding: 2rem 10rem 1rem 10rem;
 }
 .browse {
   color: #f4511e;
@@ -555,10 +557,10 @@ input,
   text-align: center;
 }
 /***Testimonies**/
-#article{
+#article {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  gap:rem;
+  gap: rem;
   text-align: left;
   width: auto;
   place-items: center;
@@ -569,78 +571,82 @@ input,
   /* margin-left: 11rem; */
   margin-bottom: 3rem;
 }
-#article-texts-paragraph{
-  font-family: 'Inter';
+#article-texts-paragraph {
+  font-family: "Inter";
   font-weight: 600;
   font-size: 15px;
   line-height: 25px;
   width: 70%;
-  color: #18191F;
+  color: #18191f;
   font-style: normal;
   margin-bottom: 1.5rem;
 }
-#article-profile{
+#article-profile {
   display: flex;
   gap: 1rem;
   align-items: center;
 }
-.name{
-  font-family: 'Inter';
+.name {
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 15px;
-  color: #F4511E;
+  color: #f4511e;
 }
-.property-owner{
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-color: #18191F;
+.property-owner {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #18191f;
 }
 /* Company Details */
-.detail-info{
+.detail-info {
   display: flex;
   justify-content: space-between;
   padding: 3rem;
 }
-.detail-line{
+.detail-line {
   width: 100%;
   height: 2px;
-  background-color: #F4511E;
+  background-color: #f4511e;
 }
-.details-address{
+.details-address {
   display: flex;
 }
-.details{
+.details {
   /* border: 1px solid black; */
   width: 40%;
 }
-.address{
+.address {
   padding-left: 1rem;
 }
-.detail-tel{
+.detail-tel {
   display: flex;
   align-items: center;
   margin-top: 1rem;
   margin-bottom: 2rem;
   /* justify-content: space-around; */
 }
-.call{
+.call {
   display: flex;
 }
-.print{
+.call-icon,
+.print-icon {
+  margin-right: 1rem;
+}
+.print {
   margin-left: 10rem;
   display: flex;
 }
-.social{
+.social {
   display: flex;
   align-items: center;
   /* margin-top: 1rem; */
 }
-.social-img{
+.social-img {
   padding-left: 2rem;
 }
 /* Footer */
@@ -770,7 +776,7 @@ footer{
     margin-left: 1.5rem;
     margin-bottom: 2rem;
   }
-  .hero-col-2-type{
+  .hero-col-2-type {
     font-size: 13px;
     line-height: 15px;
     display: flex;
@@ -968,7 +974,7 @@ footer{
   }
   .article--text1,
   .text--article3 {
-    margin-top: -13rem;
+    margin-top: -12rem;
     margin-bottom: 12rem;
     display: flex;
     justify-content: center;
@@ -982,7 +988,7 @@ footer{
     color: rgba(255, 255, 255, 1);
   }
   .article--text2 {
-    margin-top: -10rem;
+    margin-top: -9rem;
     margin-bottom: 8rem;
     display: flex;
     justify-content: center;
@@ -996,7 +1002,7 @@ footer{
     color: rgba(255, 255, 255, 1);
   }
   .article--text4 {
-    margin-top: -11rem;
+    margin-top: -10rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1025,8 +1031,8 @@ footer{
   .button {
     background: #f4511e;
     align-self: start;
-    margin-top: .5rem;
-    padding: .5rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
     border-radius: 10px;
     font-family: "Inter";
     font-size: 15px;
@@ -1081,7 +1087,7 @@ footer{
   label {
     display: block;
     margin-top: 0rem;
-    margin-bottom: .2rem;
+    margin-bottom: 0.2rem;
     font-family: "Poppins";
     font-size: 13px;
     font-weight: 600;
@@ -1091,7 +1097,7 @@ footer{
     /* color: rgba(244, 81, 30, 1); */
   }
   .form-details-name {
-    margin: .5rem;
+    margin: 0.5rem;
   }
   input,
   .form-select {
@@ -1116,7 +1122,7 @@ footer{
   .form-details-decription {
     /* align-self: start; */
     width: 90%;
-    margin: auto ;
+    margin: auto;
   }
   .form-details-input {
     height: 10vh;
@@ -1148,7 +1154,7 @@ footer{
     background-color: #f4511e;
     width: 50%;
     margin-top: 1rem;
-    padding: .5rem;
+    padding: 0.5rem;
     border-radius: 5px;
     color: #f5f5f5;
   }
@@ -1160,25 +1166,74 @@ footer{
     text-align: center;
   }
   /**Testimonies**/
-  #article{
+  #article {
     display: flex;
     flex-direction: column-reverse;
     text-align: center;
   }
-  #article-texts-paragraph{
+  #article-texts-paragraph {
     width: 100%;
     text-align: left;
     line-height: 18px;
     font-weight: 400;
   }
-  #article-image{
+  #article-image {
     margin: 2rem 0rem;
   }
   /* .profile-img,.name{
     margin-bottom: 4rem;
   } */
-  video{
+  video {
     width: 100%;
+  }
+  /* Company Details */
+  .detail-info {
+    padding: 0;
+    margin-top: 0rem;
+    display: grid;
+  }
+  /* Company -details logo */
+  .detail-logo {
+    text-align: center;
+    margin: 1rem 0rem;
+  }
+  /* Logo H1 */
+  .detail-logo > h1 {
+    font-size: 700;
+  }
+  /* Details */
+  .details {
+    display: block;
+    width: auto;
+  }
+  /* details address */
+  .details-address,
+  .address {
+    width: auto;
+    align-items: center;
+  }
+  .address-image {
+    width: 20px;
+  }
+  /* Detail tel */
+  .detail-tel {
+    
+  }
+  .call{
+    width: auto;
+    align-items: center;
+
+  }
+  .call-icon, .print-icon{
+    width: 20px;
+  }
+  .print{
+    margin-left: 2rem;
+  }
+  /* Social */
+  .social-img{
+    width: 20px;
+    padding: .5rem;
   }
 }
 @media (min-width: 1728px) {
