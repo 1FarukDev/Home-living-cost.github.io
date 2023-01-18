@@ -53,6 +53,7 @@ ul li a {
 i {
   color: rgb(255, 255, 255);
   display: none;
+  width: 0;
 }
 .fa-bars {
   display: none;
@@ -755,6 +756,7 @@ footer {
   }
   i {
     padding: 0.5rem;
+    width: 25px;
   }
 
   .fa-bars {
