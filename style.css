@@ -4,7 +4,7 @@
 }
 body {
   background-color: white;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 /* main */
 main {
@@ -30,9 +30,13 @@ ul {
   display: flex;
   justify-content: space-between;
 }
-header{
+header {
   width: 95%;
-  margin: ;
+}
+.header-line {
+  width: 95%;
+  height: 1px;
+  background-color: white;
 }
 ul {
   display: flex;
@@ -55,11 +59,11 @@ ul li a {
 }
 /* bars */
 i {
-  color
-  
+  width: 0px;
 }
 .fa-bars {
   display: none;
+  width: 0px;
 }
 /* The whole body and footer padding */
 section {
@@ -762,15 +766,15 @@ footer {
   }
   i {
     padding: 0.5rem;
-    width: 25px;
+    width: 10px;
     /* background-color: white; */
-    color: black;
+    color: white;
   }
 
   .fa-bars {
     display: block;
-    /* width: 25px; */
-    margin-top: 0.5rem;
+    width: 30px;
+    margin-top: 0.8rem;
   }
   .hero {
     display: flex;
