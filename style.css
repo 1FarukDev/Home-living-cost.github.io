@@ -30,6 +30,10 @@ ul {
   display: flex;
   justify-content: space-between;
 }
+header{
+  width: 95%;
+  margin: ;
+}
 ul {
   display: flex;
   margin: 1.5rem;
@@ -51,9 +55,8 @@ ul li a {
 }
 /* bars */
 i {
-  color: rgb(255, 255, 255);
-  display: none;
-  width: 0;
+  color
+  
 }
 .fa-bars {
   display: none;
@@ -139,8 +142,10 @@ label {
   background-color: rgba(244, 81, 30, 1);
   width: 23%;
   height: 1px;
-  margin-top: -13px;
-  margin-left: 13rem;
+  margin-top: -14px;
+  /* margin-left: 13rem; */
+  overflow: hidden;
+  align-self: left;
 }
 #main {
   background: #e5e5e5;
@@ -213,6 +218,7 @@ h2 {
   width: 25%;
   margin-top: -15px;
   background-color: rgba(244, 81, 30, 1);
+  overflow: hidden;
 }
 /* Button present in the property */
 button {
@@ -757,10 +763,13 @@ footer {
   i {
     padding: 0.5rem;
     width: 25px;
+    /* background-color: white; */
+    color: black;
   }
 
   .fa-bars {
     display: block;
+    /* width: 25px; */
     margin-top: 0.5rem;
   }
   .hero {
