@@ -64,6 +64,7 @@ i {
 .fa-bars {
   display: none;
   width: 0px;
+  visibility: hidden;
 }
 /* The whole body and footer padding */
 section {
@@ -1371,6 +1372,7 @@ footer {
   }
 
   .fa-bars {
+    visibility: visible;
     display: block;
     width: 30px;
     margin-top: 0.8rem;
